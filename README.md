@@ -13,7 +13,7 @@
 
 ## Index
 
-### Neovim
+#### 1.Neovim
 This folder contains my .lua config file for my neovim setup.
 
 **This config features :-**
