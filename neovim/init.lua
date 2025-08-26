@@ -23,6 +23,12 @@ require('lazy').setup({
 -- Set the theme to Tokyonight (anime style)
 vim.cmd([[colorscheme tokyonight]])
 
+-- Enable absolute numbering
+vim.opt.number = true
+
+-- Enable relative numbering
+vim.opt.relativenumber = true
+
 -- Enable LSP configurations for C, Java, Python
 local lspconfig = require('lspconfig')
 
